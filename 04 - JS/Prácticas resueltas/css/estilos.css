@@ -1,0 +1,30 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.h3 {
+    font-size: 87px;
+}
+
+body {
+    background-image: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #6699;
+}
+
+.pokedexLayout {
+    width: 300px;
+    height: auto;
+}
+
+
+/*
+.background {
+    display: flex;
+    flex: auto;
+}
+*/

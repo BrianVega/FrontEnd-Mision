@@ -1,0 +1,56 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(243, 201, 201);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#layout {
+    display: block;
+}
+
+.principal-container {
+    position: relative;
+}
+
+#pokeName {
+    position: absolute;
+    left: 30px;
+    top: 505px;
+    width: 392px;
+}
+
+#pokeImg {
+    position: absolute;
+    flex-direction: column;
+    top: 25%;
+    left: 23%;
+    width: 250px;
+}
+
+#btnBuscar {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 380px;
+    height: 90px;
+    left: 35px;
+    bottom: 5%;
+    background-color: rgb(83, 83, 85);
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
